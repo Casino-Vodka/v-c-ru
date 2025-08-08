@@ -1,0 +1,4 @@
+User-agent: *
+disallow: / vodka-casino.ru
+
+Sitemap: https://thimbles-games.github.io/sitemap.xml
