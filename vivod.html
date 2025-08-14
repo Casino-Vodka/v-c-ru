@@ -21,6 +21,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/public/cache/icons/web-app-manifest-512x512.png">
     <link rel="manifest" href="/public/cache/icons/site.webmanifest">
     <meta name="theme-color" content="#0c111c" />
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Vodka Casino" />
     <meta property="og:title" content="Как вывести средства из Vodka Casino: способы вывода" />
@@ -29,7 +30,6 @@
     <meta property="og:image" content="https://vodka-casino.ru/public/cache/images/vivod/vodka_casino_spb_vivod_po_nomeru_telefon.avif" />
     <meta name="twitter:card" content="summary_large_image" />
     <script async="" src="https://cdn.ampproject.org/v0.js"></script>
-    <meta name="google-site-verification" content="txYJGqdh2BZGVpmQodBssrjy38LMNGQGkyIhukpiey8" />
 <style amp-custom>
       * { margin: 0; padding: 0; box-sizing: border-box; }
       body {
@@ -143,7 +143,9 @@ a {
       .vodka-casino { background-color: #0e00ff24; border: 3px solid #2900ff; border-radius: 12px; display: flex; flex-direction: column; position: relative; overflow: visible; padding: 15px; box-shadow: 0 2px 6px rgba(0, 0, 255, 0.1); min-height: 220px; }
       .speech { position: absolute; top: 10px; left: 15px; background: #f9f9f903; border-radius: 15px; border: 3px solid #2900ff; padding: 12px 20px; font-size: 18px; max-width: 90%; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); word-break: break-word; z-index: 5; }
       .vodka-casino-content {margin-top: 60px;display: flex;gap: 20px;align-items: flex-start;width: 100%;max-width: 100%;flex-wrap: nowrap;flex-direction: column;}
-      .vodka-casino-image {min-width: 150px;border-radius: 8px;overflow: hidden;border: 3px solid #2900ff;background-color: #0e00ff24;display: flex;justify-content: center;align-items: center;}
+      .vodka-casino-image {min-width: 150px;border-radius: 8px;overflow: hidden;border: 3px solid #2900ff;background-color: #0e00ff24;display: flex;justify-content: center;align-items: center;position: relative;}
+      .share-toolbar {position: absolute; top: 10px; right: 10px; display: flex; gap: 6px; z-index: 10;}
+      .share-toolbar amp-social-share {border-radius: 8px;}
       .vodka-casino-image img { width: 100%; height: auto; object-fit: contain; display: block; pointer-events: none; user-select: none; }
       .vodka-casino-text {max-width: 100%;background: #f9f9f903;border-radius: 8px;border: 3px solid #2900ff;padding: 12px;font-size: 16px;overflow-wrap: break-word;color: #fff;}
       .gif-container { margin: 10px 0; max-width: 100%; border-radius: 8px; overflow: hidden; border: 3px solid #2900ff; }
@@ -272,6 +274,10 @@ a {
                 decoding="async"
             />
           </video>
+          <div class="share-toolbar" aria-label="Поделиться">
+            <amp-social-share type="system" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/vodka_casino_spb_vivod_po_nomeru_telefona.webm"></amp-social-share>
+            <amp-social-share type="twitter" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/vodka_casino_spb_vivod_po_nomeru_telefona.webm"></amp-social-share>
+          </div>
         </div>
       </div>
     </section>
@@ -316,6 +322,10 @@ a {
           document.getElementById('text-2').style.opacity = '1';
         "
       />
+      <div class="share-toolbar" aria-label="Поделиться">
+        <amp-social-share type="system" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/vivodi_na_t-bank_vodka_casino.avif"></amp-social-share>
+        <amp-social-share type="twitter" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/vivodi_na_t-bank_vodka_casino.avif"></amp-social-share>
+      </div>
     </div>
       
     <div id="temp-text-2" style="position: absolute; z-index: 100; opacity: 1;">
@@ -358,6 +368,10 @@ a {
           document.getElementById('text-3').style.opacity = '1';
         "
       />
+      <div class="share-toolbar" aria-label="Поделиться">
+        <amp-social-share type="system" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/vodka_casino_vivod_na_sberbank.avif"></amp-social-share>
+        <amp-social-share type="twitter" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/vodka_casino_vivod_na_sberbank.avif"></amp-social-share>
+      </div>
     </div>
     <div id="temp-text-3" style="position: absolute; z-index: 100; opacity: 1;">#vodka_casino_russia_bank</div>
     <div id="text-3" class="vodka-casino-text" style="opacity: 0;">
@@ -397,6 +411,10 @@ a {
           document.getElementById('text-4').style.opacity = '1';
         "
       />
+      <div class="share-toolbar" aria-label="Поделиться">
+        <amp-social-share type="system" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/usdt-trc20_vivod_vodka_casino.avif"></amp-social-share>
+        <amp-social-share type="twitter" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/usdt-trc20_vivod_vodka_casino.avif"></amp-social-share>
+      </div>
     </div>
     <div id="temp-text-4" style="position: absolute; z-index: 100; opacity: 1;">#vodka_casino_cripto</div>
     <div id="text-4" class="vodka-casino-text" style="opacity: 0;">
@@ -434,6 +452,10 @@ a {
           document.getElementById('text-5').style.opacity = '1';
         "
       />
+      <div class="share-toolbar" aria-label="Поделиться">
+        <amp-social-share type="system" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/vivod_iz_vodka_casino_po_nomeru_cheta.avif"></amp-social-share>
+        <amp-social-share type="twitter" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vivod/vivod_iz_vodka_casino_po_nomeru_cheta.avif"></amp-social-share>
+      </div>
     </div>
     <div id="temp-text-5" style="position: absolute; z-index: 100; opacity: 1;">#vivod_iz_vodka_casino_po_nomeru_cheta</div>
     <div id="text-5" class="vodka-casino-text" style="opacity: 0;">
@@ -471,6 +493,13 @@ a {
           document.getElementById('text-6').style.opacity = '1';
         "
       />
+      <div class="share-toolbar" aria-label="Поделиться">
+        <amp-social-share type="system" width="36" height="36"></amp-social-share>
+        <amp-social-share type="telegram" width="36" height="36"></amp-social-share>
+        <amp-social-share type="vk" width="36" height="36"></amp-social-share>
+        <amp-social-share type="ok" width="36" height="36"></amp-social-share>
+        <amp-social-share type="twitter" width="36" height="36"></amp-social-share>
+      </div>
     </div>
     <div id="temp-text-6" style="position: absolute; z-index: 100; opacity: 1;">#vodka_casino_nalichnii</div>
     <div id="text-6" class="vodka-casino-text" style="opacity: 0;">

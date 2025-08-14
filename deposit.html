@@ -29,7 +29,7 @@
     <meta property="og:image" content="https://vodka-casino.ru/public/cache/images/deposit/vodka_casino_najmi_na_plus_i_popadeesh_na_stranicu_popolnenia_scheeta.min.avif" />
     <meta name="twitter:card" content="summary_large_image" />
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <meta name="google-site-verification" content="txYJGqdh2BZGVpmQodBssrjy38LMNGQGkyIhukpiey8" />
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
     <style amp-custom>
       .vodka-casino-text1{
         display: inline;
@@ -190,7 +190,10 @@
         display: flex; 
         justify-content: center; 
         align-items: center; 
+        position: relative;
       }
+      .share-toolbar { position: absolute; top: 10px; right: 10px; display: flex; gap: 6px; z-index: 10; }
+      .share-toolbar amp-social-share { border-radius: 8px; }
       .vodka-casino-image img, .vodka-casino-image2 img { 
         width: 100%; 
         height: auto; 
@@ -618,6 +621,10 @@ padding: 2%;
               loading="lazy" 
               decoding="async"
           />
+          <div class="share-toolbar" aria-label="Поделиться">
+            <amp-social-share type="system" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vodka_casino_vibor_valuti.webm"></amp-social-share>
+            <amp-social-share type="twitter" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/vodka_casino_vibor_valuti.webm"></amp-social-share>
+          </div>
       <video>
       
         </div>
@@ -640,6 +647,10 @@ padding: 2%;
               height="474"
               style="display: block; width: 100%; height: auto; position: relative; z-index: 1;"
             />
+            <div class="share-toolbar" aria-label="Поделиться">
+              <amp-social-share type="system" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/deposit/panel_dlia_deposita_v_vodka_casino.mobile.avif"></amp-social-share>
+              <amp-social-share type="twitter" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/deposit/panel_dlia_deposita_v_vodka_casino.mobile.avif"></amp-social-share>
+            </div>
              
             <img
               src="public/cache/images/deposit/panel_dlia_deposita_v_vodka_casino.mobile.avif"
@@ -656,6 +667,10 @@ padding: 2%;
               document.querySelector('#vodka-casino-text-inner').style.opacity = '1';
             "
           />
+          <div class="share-toolbar" aria-label="Поделиться">
+            <amp-social-share type="system" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/deposit/stranica_popolnenia_scheta_na_vodka_casono.avif"></amp-social-share>
+            <amp-social-share type="twitter" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/deposit/stranica_popolnenia_scheta_na_vodka_casono.avif"></amp-social-share>
+          </div>
         </div>
          
         <div id="temp-text-2"  style="position: absolute; z-index: 100; opacity: 1;">
@@ -746,6 +761,10 @@ padding: 2%;
           document.querySelector('#text-4').style.opacity = '1';
         "
       />
+      <div class="share-toolbar" aria-label="Поделиться">
+        <amp-social-share type="system" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/deposit/vodka_casino_zagruzi_itot_chek_dlia_podtverjdenia_depozita.avif"></amp-social-share>
+        <amp-social-share type="twitter" width="36" height="36" data-param-url="https://vodka-casino.ru/public/cache/images/deposit/vodka_casino_zagruzi_itot_chek_dlia_podtverjdenia_depozita.avif"></amp-social-share>
+      </div>
     </div>
   </div>
 </section>
